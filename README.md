@@ -10,8 +10,6 @@ Code for the paper titled [A Diffusion Weighted Graph Framework for New Intent D
 
 [4. Thanks](#thanks)
 
-[5. Citation](#citation)
-
 ## Data
 We performed experiments on three public datasets: [clinc](https://aclanthology.org/D19-1131/), [banking](https://aclanthology.org/2020.nlp4convai-1.5/) and [stackoverflow](https://aclanthology.org/W15-1509/), which have been included in our repository in the data folder ' ./data '.
 
@@ -33,5 +31,4 @@ bash scripts/run_{dataset}.sh
 Some code references the following repositories:
 * [DeepAligned](https://github.com/thuiar/DeepAligned-Clustering)
 * [MTP-CLNN](https://github.com/fanolabs/NID_ACLARR2022)
-
-## Citation
+* [learn-to-cluster](https://github.com/yl-1993/learn-to-cluster)
