@@ -17,19 +17,17 @@ We performed experiments on three public datasets: [clinc](https://aclanthology.
 
 ## Requirements
 * python==3.8
-* pytorch==1.11.0
-* transformers==4.19.2
-* scipy==1.8.0
-* numpy==1.21.6
-* scikit-learn==1.1.1
-* pytorch-pretrained-bert==0.6.2
+* pytorch==1.12.0
+* transformers==4.26.1
+* scipy==1.10.1
+* numpy==1.23.5
+* scikit-learn==1.2.1
 
 ## Running
 Pre-training, training and testing our model through the bash scripts:
 ```
 sh run.sh
 ```
-You can also add or change parameters in run.sh (More parameters are listed in init_parameter.py)
 
 ## Thanks
 Some code references the following repositories:
