@@ -24,13 +24,14 @@ We performed experiments on three public datasets: [clinc](https://aclanthology.
 * scikit-learn==1.2.1
 
 ## Running
-Pre-training, training and testing our model through the bash scripts:
+Pre-training, training, and inference through the following scripts:
 ```
-sh run.sh
+bash scripts/run_{dataset}.sh
 ```
 
 ## Thanks
 Some code references the following repositories:
 * [DeepAligned](https://github.com/thuiar/DeepAligned-Clustering)
+* [MTP-CLNN](https://github.com/fanolabs/NID_ACLARR2022)
 
 ## Citation
